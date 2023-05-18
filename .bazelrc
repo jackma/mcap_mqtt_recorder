@@ -1,0 +1,5 @@
+# Default flags for all build configurations
+build --cxxopt=-std=c++20
+build --cxxopt=-Wall
+build --cxxopt=-Werror
+build --repo_env=CC=clang-15
